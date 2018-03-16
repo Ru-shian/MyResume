@@ -1,12 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style_Resume.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>  
+    <script src="js/lightbox.min.js"></script>  
+    <link href="css/lightbox.css" rel="stylesheet" />  
+    <title>My Resume</title>
 </head>
+
 <body>
-    MyResume
+
+    <div class="topBg">
+        <img src="img/topBg.jpg" alt="TopBackground">
+        <div class="topright">
+            <a href="#name">About me.....</a>
+        </div>
+    </div>
+
+    <!-- 簡短自傳 -->
+    <div class="header">
+        <div class="topPic">
+            <img src="img/pic-1.jpg" alt="myPicture">
+        </div>
+
+        <div class="about">
+            <h1 id="name">黃茹舷</h1>
+            <p style="line-height:2.2;">在他人眼裡，我是個克盡職責，具備團隊精神的人。我有4年以上的美術編輯經驗，曾透過自學、參加職前與在職訓練，不斷提升電腦軟體操作等技能。在有限時程內完成任務的同時，學習評估輕重緩急；在與同事討論設計需求時，適時傳達設計理念，藉此培養溝通能力與耐心。
+                <br> 曾接觸html基礎程式語法，也發掘自己對程式設計如何發現問題、解決問題感到好奇與嚮往，因此希望有機會能從零開始學好程式，升級自己的腦袋思維。期望未來能擁有具挑戰性、成長性的職涯環境，與優秀的工程師共事，讓自己的職場發展更開闊。</p>
+            <p style="word-spacing:28px;">
+                <span>
+                    <i class="fas fa-graduation-cap" style="font-size:20px; color:#3CC; padding-right:5px;"></i>聖約翰科技大學應用英語系(2008年畢業)</span>
+                <span>
+                    <i class="fas fa-home" style="font-size:20px;color:#3CC; padding-right:5px;"></i>來自苗栗縣|現居臺北市</span>
+                <span>
+                    <i class="fas fa-envelope" style="font-size:20px;color:#3CC; padding-right:5px;"></i>asalty0522@gmail.com</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- 專長技能 -->
+    <div class="skill">
+        <div style="width:18%;">
+            <h2>技能</h2>
+            <ul>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe InDesign</li>
+                <li>Adobe Dreamweaver</li>
+            </ul>
+        </div>
+        <div style="width:22%;">
+            <h2>資格証照</h2>
+            <ul>
+                <li>Adobe Certified Associate (ACA) Photoshop CS5</li>
+                <li>Adobe Certified Associate (ACA) Dreamweaver CS5</li>
+            </ul>
+        </div>
+        <div style="width:35%;">
+            <h2>職訓進修</h2>
+            <h4>勞動部勞動力發展署-產業人才投資方案：</h4>
+            <ul>
+                <li>RWD響應式網頁設計班 54小時 (2017.9月)</li>
+                <li>威力導演影像編輯班 42小時 (2017.8月)</li>
+                <li>InDesign數位內容出版應用實務班 30小時 (2016.4月)</li>
+                <li>商品包裝盒數位設計實務班 36小時 (2016.3月)</li>
+            </ul>
+            <h4>台北市政府勞工局職業訓練中心101年度委外職業訓練：</h4>
+            <ul>
+                <li>商業影像網路商品實作班 360小時 (2012.9月)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 作品圖片 -->
+    <div>
+            <a href="img/image-2.jpg" data-lightbox="roadtrip">Image #2</a>  
+            <a href="img/image-3.jpg" data-lightbox="roadtrip">Image #3</a>  
+            <a href="img/image-4.jpg" data-lightbox="roadtrip">Image #4</a>  
+    </div>
+
+
+
+    <!-- 工作經歷 -->
+    <div class="work">
+        <div>
+            <h1 style="padding: 0 14px;">工作經驗</h1>
+            <h2>光電科技工業協進會　2013 年～至今</h2>
+            <ul>
+                <li>負責各式平面媒體的美術編輯</li>
+                <ol>
+                    <li>2014~2017每年度「台北國際光電週」之展覽相關文宣品排版設計
+                        <br> （如：海報、廣告稿、邀請函、參觀指南、攤位平面圖、參展手冊封面、展會快訊等）
+                    </li>
+                    <li>展覽edm、賀卡edm底圖設計、切版與上稿，藉此也有了html、css基礎語法概念與實作</li>
+                    <li>雙月刊、季刊等刊物編排，累計40本以上，曾配合展覽時程於7天內完成一本80頁刊物</li>
+                    <li>因應不同網頁，設計各尺寸Banner（每年約30~40個），以達展覽或研討會宣傳的意念</li>
+                </ol>
+                <li>負責超過30場次的研討會場佈設計（如：會議室 / 報到處 / 議程表 / 指示牌看板、關東旗、易拉展等）</li>
+                <li>協助完成中部科學園區指派之專案 （如：光電展 / 生技展 / 工具機展之DM設計、禮品logo套版、簡報母片等）</li>
+            </ul>
+
+            <h2>茂利通企業股份有限公司　2006 年～2012 年</h2>
+            <ul>
+                <li>因興趣與工作所需，我自學繪圖軟體Adobe Illustrator、Photoshop以勝任美編工作！
+                    <br> 擅長圖案素材的拼貼與排版，也有替商品設計包裝彩盒、校稿、改稿的經驗
+                </li>
+                <li>需與客戶溝通編修內容，縮短修改時間，妥善掌握時程以利公司爭取到下單機會</li>
+                <li>略懂印刷製程。工廠開版過程如遇突發狀況，曾與工廠互相討論，共同找出解決方法克服困難</li>
+                <li>聯繫工廠，跟進出貨流程；聯系授權商，跟進授權審核進度</li>
+                <li>客戶要求提前出貨，同時遇上工廠旺季排程滿檔時，曾與工廠協商成功</li>
+                <li>面對交貨期壓力能適當自我調適，並適時安撫工廠情緒，給予正向的精神鼓勵</li>
+            </ul>
+
+            <h2>亙祥實業有限公司　2012 年～2016 年
+                <i style="font-size:12px;">*接案性質*</i>
+            </h2>
+            <ul>
+                <li>連續配合5年，負責每年度耶誕電子賀卡的設計，作品請按此</li>
+                <li>以gif動態呈現。每年依案主指定的主題 (如：黃色小鴨、金城武樹...) 結合耶誕與新年氛圍，進行腦力激盪</li>
+                <li>與案主透過電話或email保持聯繫，討論彼此的想法，讓案子順利結案</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+         <span class="footerIcon"><a href="#name"><i class="fas fa-home"></i></a></span>
+         <span class="footerIcon"><a href="mailto:asalty0522@gmail.com"><i class="fas fa-envelope"></i></a></span>
+         <span class="footerIcon"><a href="#fb"><i class="fab fa-facebook-square"></i></a></span>
+         <span class="footerIcon"><a href="#ig"><i class="fab fa-instagram"></i></a></span>
+    </div>
+
+
 </body>
+
 </html>

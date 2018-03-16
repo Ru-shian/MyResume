@@ -1,0 +1,141 @@
+/* @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css); */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    font-family: '微軟正黑體', sans-serif;    
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    /* font-weight: 300; */
+}
+
+.topBg img {
+    width:100%;
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    font-size: 40px;
+    background-color: rgb(30, 115, 172);
+    width: 350px;
+}
+
+.topright a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 350px;
+    top: 50px;
+    padding: 5px 0 0 15px;
+}
+
+.topright a:hover {
+    background-color: rgb(37, 135, 201); 
+}
+
+ .header {
+    margin: 30px auto;
+    text-align: center;
+ }
+
+.topPic {
+    display: inline-block;
+    padding: 15px 25px 0 0;
+    /* border: 1px solid #FF0000; */
+}
+
+.topPic img {
+    border-radius: 15px;
+}
+
+.about {
+    text-align: justify;
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    /* border: 1px solid #FF0000; */
+}
+
+.skill  {
+    margin: 10px auto;
+    text-align: center;
+ }
+
+.skill div{
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.5;   
+    text-align: left; 
+    /* border: 1px solid #FF0000; */
+}
+
+h2 {
+    border-left: 6px solid #3cc;
+    padding: 0 15px;
+    margin: 15px;
+    background-color: rgb(220, 248, 248);
+}
+
+.skill h4 {
+    text-indent:25px;
+    font-size: 14px;
+    line-height: 0.5;
+    color:#3cc;
+}
+
+.work  {
+    margin: 0px auto;
+    text-align: center;
+ }
+
+.work div{
+    width:75%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.5;   
+    text-align: left; 
+    /* border: 1px solid #FF0000; */
+}
+
+.footer {
+    background-color: #3cc;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footerIcon a {
+    font-size:25px; 
+    color:rgba(140, 250, 250, 0.7);
+    padding:10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .header, .skill {   
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+    .about {   
+        width: 90%;
+    }
+}
+
+
+/* @media screen and (max-width: 400px) {
+    .header .skill  {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+} */
